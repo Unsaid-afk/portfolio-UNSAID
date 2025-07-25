@@ -33,21 +33,14 @@
   color: var(--accentColor);
 }
 .what-box-in {
+  display: flex;
   flex-direction: column;
-  height: 500px;
-  margin-left: 200px;
-  position: relative;
-  display: none;
-}
-.what-content {
-  width: 450px;
-  height: 33%;
-  min-height: 50%;
-  transition: 0.5s;
-  /* border: 0.5px dashed rgba(255, 255, 255, 0.3); */
-  position: relative;
+  gap: 40px;
+  height: auto;
+  min-height: 0;
   padding: 50px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .what-noTouch:hover,
@@ -205,8 +198,34 @@
   position: absolute;
 }
 .what-content-in {
-  height: 100%;
-  overflow: hidden;
+  min-height: 100px;
+  max-height: none;
+  overflow: visible;
+  line-height: 1.7;
+  padding: 0 10px 10px 10px;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+.what-content {
+  width: 100%;
+  max-width: 520px;
+  min-width: 280px;
+  box-sizing: border-box;
+  margin: 0 auto 20px auto;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .what-content {
+    max-width: 100%;
+    min-width: 0;
+    padding-bottom: 20px;
+  }
+  .what-content-in {
+    padding: 0 5px 10px 5px;
+  }
 }
 .what-content-in h5 {
   font-weight: 300;

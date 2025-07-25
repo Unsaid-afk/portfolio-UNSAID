@@ -90,8 +90,7 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I build full-stack web applications using technologies like React, Next.js, Node.js, TypeScript, and Supabase. My development work focuses on creating scalable, efficient, and user-focused systems — from backend logic and database integration to secure authentication and real-time functionality. I’ve worked on projects like a Billing Management System for businesses and an agriculture advisory platform under a government-funded SSIP initiative. My goal is to solve real-world problems with clean, maintainable code.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -131,8 +130,7 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I design modern, responsive, and user-centric interfaces using tools like Figma, Adobe Animate, and Blender. I specialize in UI/UX prototyping, interactive visual design, and smooth user flows that enhance engagement and usability. Using Blender, I create both 2D and 3D models, as well as animations for visual storytelling, feature illustrations, and motion UI elements. This helps bring technical projects to life with added visual clarity and aesthetic appeal.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

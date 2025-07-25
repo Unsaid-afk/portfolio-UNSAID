@@ -5,54 +5,80 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          Career &amp; Experience
         </h2>
         <div className="career-info">
-          <div className="career-timeline">
-            <div className="career-dot"></div>
-          </div>
+          {/* Education */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Education</h4>
+                <h5>B.Tech in Computer Science &amp; Engineering, 3rd Year</h5>
+                <h5>KPGU, Vadodara, Gujarat</h5>
               </div>
-              <h3>20XX</h3>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
           </div>
+
+          {/* Key Projects */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Key Projects</h4>
               </div>
-              <h3>20XX</h3>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
+            <ul>
+              <li>
+                <strong>Billing Management System – Jaiswal Sales</strong><br />
+                Developed a bilingual (English/Gujarati) billing and vendor system with GST calculation and CSV/Excel export.<br />
+                <em>Tech Stack:</em> Next.js, React, TypeScript, Node.js, Supabase, SQL
+              </li>
+              <li>
+                <strong>SSIP Government-Funded Startup (Ongoing)</strong><br />
+                Contributing to the development of a smart agriculture platform for crop and fertilizer planning.<br />
+                <em>Focus Areas:</em> UI/UX Design, Full-Stack Development
+              </li>
+            </ul>
           </div>
+
+          {/* Hackathons */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Hackathons</h4>
               </div>
-              <h3>NOW</h3>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
+            <ul>
+              <li>Team Lead in 2 hackathons</li>
+              <li>Built working prototypes using React, Firebase, and Node.js</li>
+            </ul>
+          </div>
+
+          {/* Design & Animation */}
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Design &amp; Animation</h4>
+              </div>
+            </div>
+            <ul>
+              <li>UI/UX Design using Figma</li>
+              <li>2D/3D Modeling and Animation using Blender</li>
+              <li>Visual design with Adobe Animate</li>
+            </ul>
+          </div>
+
+          {/* Certifications */}
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Certifications</h4>
+              </div>
+            </div>
+            <ul>
+              <li>UI/UX Design (Udemy)</li>
+              <li>Ethical Hacking (Udemy)</li>
+              <li>Animation &amp; Motion Graphics (Udemy)</li>
+            </ul>
           </div>
         </div>
       </div>

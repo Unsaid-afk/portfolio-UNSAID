@@ -1,70 +1,19 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import React from "react";
 import "./styles/Contact.css";
 
 const Contact = () => {
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
-        <h3>Contact</h3>
-        <div className="contact-flex">
-          <div className="contact-box">
-            <h4>Email</h4>
-            <p>
-              <a href="mailto:example@mail.com" data-cursor="disable">
-                example@mail.com
-              </a>
-            </p>
-            <h4>Phone</h4>
-            <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
-              </a>
-            </p>
-          </div>
-          <div className="contact-box">
-            <h4>Social</h4>
-            <a
-              href="https://github.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://x.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
-          </div>
-          <div className="contact-box">
-            <h2>
-              Designed and Developed <br /> by <span>Moncy Yohannan</span>
-            </h2>
-            <h5>
-              <MdCopyright /> 2024
-            </h5>
-          </div>
-        </div>
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: <a href="mailto:aaryanjaiswal2095@gmail.com">aaryanjaiswal2095@gmail.com</a></li>
+          <li>Phone: <a href="tel:+917804954787">+91 7804954787</a></li>
+          <li>Location: Vadodara, Gujarat</li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/aaryan-jaiswal-8b2190299/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/aaryan-jaiswal-8b2190299/</a></li>
+          <li>GitHub: <a href="https://github.com/Unsaid-afk" target="_blank" rel="noopener noreferrer">https://github.com/Unsaid-afk</a></li>
+          <li>X (Twitter): <a href="https://x.com/Aaryan40243930" target="_blank" rel="noopener noreferrer">https://x.com/Aaryan40243930</a></li>
+        </ul>
       </div>
     </div>
   );
